@@ -1,0 +1,20 @@
+.main-content-box {
+  background: rgb(47 0 0);
+  padding: 20px;
+  margin: 5px 0px;
+}
+
+.main-content-title {
+  margin: -20px 0px 0px -20px;
+  color: rgb(161 53 0);
+}
+
+.title-box {
+  background-color: rgb(47 0 0);
+}
+
+.background {
+  background-color: gainsboro;
+  padding-left: 125px !important;
+  padding-right: 125px !important;
+}

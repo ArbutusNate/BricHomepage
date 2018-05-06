@@ -32,10 +32,15 @@
   margin: 0px 6px;
   background-color: rgb(202 186 108);
   box-shadow: rgb(119 101 59) -2px 3px;
+  /*text-decoration: none;*/
+}
+
+.clickable-card a {
+  text-decoration: none;
 }
 
 .clickable-card:hover {
-
+  
 }
 
 .jumbotron {

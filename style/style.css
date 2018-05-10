@@ -5,9 +5,14 @@
   top: 0px;
   left: 0px;
   height: 100px;
-  color: rgb(202 186 108);
-  font-size: 4.85rem;
-  text-shadow: 1px 1px 1px 1px black
+  color: rgb(153 247 171);
+  font-size: 4.8rem;
+  /*text-shadow: 1px 1px 1px 1px rgb(100 131 129);*/
+  font-family: 'Roboto', sans-serif;
+}
+
+.burgundy {
+  background-color: rgb(47 0 0) !important;
 }
 
 #brand a {
@@ -17,15 +22,19 @@
 
 #title-bar {
   height: 50px;
+  color: rgb(228 253 225);
+  font-family: 'Roboto', sans-serif;
 }
 
 #header-nav {
   height: 50px;
-  border-bottom: 1px black solid;
+  border-bottom: 1px rgb(47 0 0) solid;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .nav a {
-  color: black !important;
+  color: rgb(100 131 129); !important;
 }
 
 a:hover {
@@ -112,3 +121,12 @@ a:hover {
 .ccimg {
   width: 100%;
 }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+

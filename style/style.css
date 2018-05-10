@@ -6,7 +6,9 @@
   left: 0px;
   height: 100px;
   color: rgb(153 247 171);
-  font-size: 4.8rem;
+  font-size: 4.5rem;
+  padding-top: 5px;
+  padding-left: 2px;
   /*text-shadow: 1px 1px 1px 1px rgb(100 131 129);*/
   font-family: 'Roboto', sans-serif;
 }
@@ -22,6 +24,7 @@
 
 #title-bar {
   height: 50px;
+  padding-top: 10px;
   color: rgb(228 253 225);
   font-family: 'Roboto', sans-serif;
 }
@@ -70,8 +73,8 @@ a:hover {
 
 .background {
   background-color: gainsboro;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding: 0px 50px;
+  margin-top: 1px;
 }
 
 @media (max-width: 426px) {
@@ -98,9 +101,9 @@ a:hover {
   text-decoration: none;
 }
 
-.jumbotron {
+/*.jumbotron {
   margin-top: 20px;
-}
+}*/
 
 #hero-img {
   height: 100% !important;
@@ -113,15 +116,6 @@ a:hover {
   border: black solid 1px;
 }
 
-.jtext {
-  float: right;
-}
-
-
-.ccimg {
-  width: 100%;
-}
-
 h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
 }
@@ -129,4 +123,7 @@ h1, h2, h3, h4, h5 {
 p {
   font-family: 'Open Sans', sans-serif;
 }
+
+
+/*button shit*/
 

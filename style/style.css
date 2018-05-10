@@ -1,18 +1,24 @@
-#header {
-  /*background-color: rgb(47 0 0);*/
-  background-image: URL("./../assets/book-header1.jpg");
-  background-repeat: no-repeat;
-  width: 100%;
+#brand {
+  background-color: rgb(0 0 0);
+  width: 100px;
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 60px;
+  height: 100px;
   color: rgb(202 186 108);
+  font-size: 4.85rem;
   text-shadow: 1px 1px 1px 1px black
 }
 
+#title-bar {
+  height: 50px;
+}
+
+#header-nav {
+  height: 50px;
+}
+
 .card-img-top {
-  /*height: 100px;*/
   overflow: show;
 }
 
@@ -50,9 +56,7 @@
   padding-bottom: 12px;
   margin: 0px 6px;
   background-color: rgb(202 186 108);
-  /*background: url("./../assets/book-card-bg.jpg");*/
   box-shadow: rgb(119 101 59) -2px 3px;
-  /*text-decoration: none;*/
 }
 
 .no-style {
@@ -64,16 +68,11 @@
 }
 
 .jumbotron {
-  margin-top: 60px;
-  /*padding-left: 10px;*/
-  /*max-height: 150px;*/
+  margin-top: 20px;
 }
 
 #hero-img {
   height: 100% !important;
-  /*margin: auto;*/
-  /*float: left;*/
-  /*display: inline-block;*/
 }
 
 .img-frame{
@@ -81,7 +80,6 @@
   margin-left: 63px;
   height: 275px;
   border: black solid 1px;
-  /*max-height: 200px;*/
 }
 
 .jtext {

@@ -7,11 +7,6 @@
   border: 2px solid rgb(2 2 2);
 }
 
-.ss-box button {
-  /*display: inline-block;*/
-  /*float: left;*/
-}
-
 .ss-box img {
   height: 100px;
   float: left;
@@ -19,15 +14,11 @@
   border: 1px solid black;
 }
 
-#blurb {
-  /*margin-top: 20px;*/
+/*#blurb {
   font-size: 25px;
-}
+}*/
 
 #fucked-p {
   margin-bottom: -7px;
 }
 
-.background {
-  padding-top: 20px;
-}

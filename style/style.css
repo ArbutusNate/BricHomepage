@@ -80,7 +80,7 @@ a.nav-link-active {
 .background {
   background-color: gainsboro;
   padding: 0px 50px;
-  margin-top: 1px;
+  padding-top: 20px;
 }
 
 @media (max-width: 426px) {
@@ -116,6 +116,10 @@ a.nav-link-active {
   margin-left: 63px;
   height: 275px;
   border: black solid 1px;
+}
+
+#blurb {
+  font-size: 25px;
 }
 
 li {

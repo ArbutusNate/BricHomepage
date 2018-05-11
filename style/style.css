@@ -62,10 +62,6 @@ a.nav-link-active {
   line-height: 40px;
 }
 
-.card-img-top {
-  overflow: show;
-}
-
 .main-content-box {
   background: rgb(47 0 0);
   padding: 20px;
@@ -131,5 +127,14 @@ li:last-child {
 }
 
 
-/*button shit*/
+/*Short Stories*/
+
+.ss-box {
+  background-color: rgb(202 186 108)
+}
+
+.ss-box img {
+  height: 100px;
+  float: left;
+}
 

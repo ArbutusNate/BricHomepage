@@ -122,6 +122,10 @@ a.nav-link-active {
   font-size: 25px;
 }
 
+.memoir-content {
+  /*display: none;*/
+}
+
 li {
   border-left: 3px solid rgb(202 186 108);
 }

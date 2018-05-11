@@ -125,16 +125,3 @@ li {
 li:last-child {
   border-right: 3px solid rgb(202 186 108);
 }
-
-
-/*Short Stories*/
-
-.ss-box {
-  background-color: rgb(202 186 108)
-}
-
-.ss-box img {
-  height: 100px;
-  float: left;
-}
-

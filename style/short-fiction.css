@@ -14,11 +14,19 @@
   border: 1px solid black;
 }
 
+.ss-box a {
+  float: right
+}
+
 /*#blurb {
   font-size: 25px;
 }*/
 
 #fucked-p {
   margin-bottom: -7px;
+}
+
+.final {
+  margin-bottom: 20px;
 }
 

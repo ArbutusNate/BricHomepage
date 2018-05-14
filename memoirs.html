@@ -41,11 +41,12 @@
         Memoirs of the life and times of a wandering hippie and the adventures that life provides the young and reckless.
       </p>
       <div class="tabs">
-        <button>The Haight</button>
-        <button>Candyman</button>
-        <button>Eight East</button>
-        <button>The Big One</button>
+        <button class="tab-btn"  data-btn="haight">The Haight</button>
+        <button class="tab-btn"  data-btn="candy-man">Candyman</button>
+        <button class="tab-btn"  data-btn="eight-east">Eight East</button>
+        <button class="tab-btn"  data-btn="big-one">The Big One</button>
       </div>
+      <div class="container">
 <!-- THE HAIGHT -->
   <div class="memoir-content" id="haight">
       <h3 class="text-center">The Haight</h3>
@@ -404,7 +405,7 @@
 
 <!-- EIGHT EAST -->
   <div class="memoir-content" id="eight-east">
-  <center >Monday</center>
+  <center>Monday</center>
   <p>A woman’s screams woke me at four in the morning, just as they had the night before. There were no words, just a long shrill wail like that of an injured infant, terrible to hear from a grown woman. I buried my head under my pillow, but it wasn’t enough to muffle another person’s agony. I wondered what demons came to her every night; what horrors stalked her dreams. The soft squeak of rubber soles hurried past my door, and after a few minutes the shriek broke up into blubbering sobs, then whimpered reluctantly into silence.</p>
 
   <p>I was still awake three hours later when the day nurse came in with the medication cart. She handed me a glass of water and a tiny paper cup containing a single oblong red tablet.</p>
@@ -1655,7 +1656,7 @@
 
   <p><i>copyright 1996 by Brian K. Crawford</i></p>
   </div>
-<!-- EIGHT EASt -->
+<!-- EIGHT EAST -->
 
 <!-- THE BIG ONE -->
   <div class="memoir-content" id="big-one">
@@ -2495,11 +2496,35 @@
 
   </div>
 <!-- THE BIG ONE -->
-
+    </div>
+      <button class="btt">Back to Top ^</button>
     </div>
     <!-- Required BStrap Scripts -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script>
+    $(window).ready(function() {
+      // $('.memoir-content').hide();
+      $('#haight').hide();
+      $('#candy-man').hide();
+      $('#eight-east').hide();
+      $('#big-one').hide();
+      $('.btt').hide();
+    })
+    $('.tab-btn').on('click', function(event){
+      $('#haight').hide();
+      $('#candy-man').hide();
+      $('#eight-east').hide();
+      $('#big-one').hide();
+      let chosen = $(this).attr("data-btn");
+      $('#' + chosen).show();
+      $('.btt').show();
+    })
+    $('.btt').on('click', function() {
+      // $('.btt').hide();
+      window.scrollTo(0,0);
+    });
+  </script>
   </body>
 </html>

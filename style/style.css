@@ -122,8 +122,10 @@ a.nav-link-active {
   font-size: 25px;
 }
 
-.memoir-content {
-  display: none;
+.memoir-content p {
+  /*display: none;*/
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 li {
@@ -132,4 +134,10 @@ li {
 
 li:last-child {
   border-right: 3px solid rgb(202 186 108);
+}
+
+.btt {
+  position: fixed;
+  left: 0;
+  top: 50%;
 }

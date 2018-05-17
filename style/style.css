@@ -19,7 +19,6 @@ p {
   font-size: 4.5rem;
   padding-top: 5px;
   padding-left: 2px;
-  /*text-shadow: 1px 1px 1px 1px rgb(100 131 129);*/
   font-family: 'Roboto', sans-serif;
 }
 
@@ -57,7 +56,6 @@ p {
 
 a.nav-link-active {
   color: rgb(153 247 171);
-  /*margin: 0px 10px;*/
   padding: .5rem 1rem;
   line-height: 40px;
 }
@@ -69,8 +67,9 @@ a.nav-link-active {
 }
 
 .main-content-title {
+  padding: 20px;
   margin: -20px 0px 0px -20px;
-  color: rgb(161 53 0);
+  color: rgb(202 186 108);
 }
 
 .title-box {
@@ -81,8 +80,6 @@ a.nav-link-active {
   background-color: gainsboro;
   padding: 20px 50px;
   min-height: 84vh;
-  /*padding-top: 20px;*/
-  /*padding-bottom: 20px;*/
 }
 
 @media (max-width: 426px) {
@@ -134,6 +131,10 @@ li:last-child {
 
 .final {
   padding-bottom: 0px;
+}
+
+.down-arrow {
+  height: 40px;
 }
 
 

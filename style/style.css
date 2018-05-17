@@ -79,8 +79,10 @@ a.nav-link-active {
 
 .background {
   background-color: gainsboro;
-  padding: 0px 50px;
-  padding-top: 20px;
+  padding: 20px 50px;
+  min-height: 84vh;
+  /*padding-top: 20px;*/
+  /*padding-bottom: 20px;*/
 }
 
 @media (max-width: 426px) {
@@ -122,10 +124,13 @@ a.nav-link-active {
   font-size: 25px;
 }
 
+.memoir-content {
+  display: none;
+}
+
 .memoir-content p {
   /*display: none;*/
   font-family: 'Open Sans', sans-serif;
-
 }
 
 li {
@@ -137,7 +142,23 @@ li:last-child {
 }
 
 .btt {
+  display:none;
   position: fixed;
   left: 0;
-  top: 50%;
+  top: 50%  ;
+}
+
+.memoir-container {
+  /*display: none;*/
+  height: calc(100% - 100px);
+}
+
+.final {
+  padding-bottom: 0px;
+}
+
+#diggers-box {
+  margin: 5px 15px;
+  border: solid black 1px;
+  background-color: white;
 }

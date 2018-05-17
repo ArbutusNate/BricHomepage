@@ -7,6 +7,10 @@
   border: 2px solid rgb(2 2 2);
 }
 
+/*.ss-box .col-sm-6{
+  margin-bottom: -25px;
+}*/
+
 .ss-box img {
   height: 100px;
   float: left;

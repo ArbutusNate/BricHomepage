@@ -1,0 +1,48 @@
+#diggers-box {
+  margin: 10px 15px;
+  border: solid black 1px;
+  background-color: white;
+}
+
+#tabs {
+  float: none;
+}
+
+.tab-btn {
+  margin: 0px 0px 20px 0px;
+  /*background-color: rgb(100 131 129);*/
+  height: 50px;
+  border:none;
+  border-left: 3px solid rgb(202 186 108);
+  /*margin: auto;*/
+}
+
+.tab-btn:last-child {
+  border-right: 3px solid rgb(202 186 108) ;
+}
+
+.tab-btn:active {
+  background-color: rgb(153 247 171);
+  border: rgb(47 0 0);
+}
+
+.memoir-container {
+  margin-top: 20px;
+  height: calc(100% - 100px);
+}
+
+.btt {
+  display:none;
+  position: fixed;
+  left: 0;
+  top: 50%  ;
+}
+
+.memoir-content {
+  display: none;
+}
+
+.memoir-content p {
+  font-family: 'Open Sans', sans-serif;
+}
+

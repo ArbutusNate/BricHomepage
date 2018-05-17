@@ -124,15 +124,6 @@ a.nav-link-active {
   font-size: 25px;
 }
 
-.memoir-content {
-  display: none;
-}
-
-.memoir-content p {
-  /*display: none;*/
-  font-family: 'Open Sans', sans-serif;
-}
-
 li {
   border-left: 3px solid rgb(202 186 108);
 }
@@ -141,24 +132,9 @@ li:last-child {
   border-right: 3px solid rgb(202 186 108);
 }
 
-.btt {
-  display:none;
-  position: fixed;
-  left: 0;
-  top: 50%  ;
-}
-
-.memoir-container {
-  /*display: none;*/
-  height: calc(100% - 100px);
-}
-
 .final {
   padding-bottom: 0px;
 }
 
-#diggers-box {
-  margin: 5px 15px;
-  border: solid black 1px;
-  background-color: white;
-}
+
+

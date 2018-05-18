@@ -1,28 +1,2 @@
-/*Short Stories*/
 
-.ss-box {
-  background-color: rgb(202 186 108);
-  padding: 15px;
-  margin-top: 15px;
-  border: 2px solid rgb(2 2 2);
-}
-
-.ss-box img {
-  height: 100px;
-  float: left;
-  margin-right: 20px;
-  border: 1px solid black;
-}
-
-.ss-box a {
-  float: right
-}
-
-#fucked-p {
-  margin-bottom: -7px;
-}
-
-.final {
-  margin-bottom: 20px;
-}
 

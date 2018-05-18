@@ -191,6 +191,10 @@ li:last-child {
   height: 40px;
 }
 
+/*.jumbotron {
+  padding: 10px !important;
+}*/
+
 /*Short Stories*/
 
 .ss-box {

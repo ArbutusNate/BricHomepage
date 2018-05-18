@@ -26,6 +26,10 @@
   border: rgb(47 0 0);
 }
 
+.tab-btn:hover {
+  cursor: pointer;
+}
+
 .memoir-container {
   margin-top: 20px;
   height: calc(100% - 100px);

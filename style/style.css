@@ -16,7 +16,7 @@ p {
   top: 0px;
   left: 0px;
   height: 100px;
-  background-color: rgb(153 247 171);
+  background: rgb(153 247 171);
   font-size: 72px;
   padding-top: 5px;
   padding-left: 2px;
@@ -198,7 +198,7 @@ li:last-child {
 /*Short Stories*/
 
 .ss-box {
-  background-color: rgb(202 186 108);
+  background: white;
   padding: 15px;
   margin-top: 15px;
   border: 2px solid rgb(2 2 2);

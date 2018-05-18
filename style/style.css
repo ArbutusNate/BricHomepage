@@ -8,12 +8,6 @@ p {
 }
 
 /*Header CSS*/
-.brand-fix {
-  font-size: 70px !important;
-  padding-top: 6px !important;
-  padding-right: 5px !important;
-  padding-left: -1px;
-}
 
 #brand {
   color: rgb(0 0 0);
@@ -65,7 +59,7 @@ p {
   text-decoration: none;
 }*/
 
-/*COPIED STUFF*/
+/*HOVER EFFECT*/
 .hvr-sweep-to-top {
   display: inline-block;
   vertical-align: middle;
@@ -86,7 +80,7 @@ p {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgb(47 0 0);
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50% 100%;
@@ -99,14 +93,14 @@ p {
   transition-timing-function: ease-out;
 }
 .hvr-sweep-to-top:hover, .hvr-sweep-to-top:focus, .hvr-sweep-to-top:active {
-  color: white;
+  color: rgb(153 247 171);
 }
 .hvr-sweep-to-top:hover:before, .hvr-sweep-to-top:focus:before, .hvr-sweep-to-top:active:before {
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
 }
 
-/*COPIED STUFF*/
+/*HOVER EFFECT*/
 
 a.nav-link-active {
   color: rgb(47 0 0);
@@ -120,6 +114,7 @@ a.nav-link-active {
 }
 
 .main-content-box {
+  display: none;
   background: rgb(47 0 0);
   padding: 20px;
   margin: 5px 0px;
@@ -180,13 +175,13 @@ a.nav-link-active {
   font-size: 16px;
 }
 
-li {
+/*li {
   border-left: 3px solid rgb(202 186 108);
 }
 
 li:last-child {
   border-right: 3px solid rgb(202 186 108);
-}
+}*/
 
 .final {
   padding-bottom: 0px;
@@ -203,6 +198,7 @@ li:last-child {
   padding: 15px;
   margin-top: 15px;
   border: 2px solid rgb(2 2 2);
+  border-radius: 3px;
 }
 
 .ss-box img {
@@ -214,6 +210,10 @@ li:last-child {
 
 .ss-box a {
   float: right
+}
+
+.ss-box p {
+  font-size: 15px;
 }
 
 #fucked-p {

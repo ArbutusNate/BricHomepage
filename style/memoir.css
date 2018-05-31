@@ -7,20 +7,23 @@
 #tabs {
   float: none;
   font-family: 'Open Sans', sans-serif;
+}
 
+img {
+  height: 45px !important;
 }
 
 .tab-btn {
   margin: 0px 0px 20px 0px;
-  /*background-color: rgb(100 131 129);*/
+  background-color: white;
   height: 50px;
   border:none;
-  border-left: 3px solid rgb(202 186 108);
+  border-left: 2px dotted rgb(202 186 108);
   /*margin: auto;*/
 }
 
 .tab-btn:last-child {
-  border-right: 3px solid rgb(202 186 108) ;
+  border-right: 2px dotted rgb(202 186 108) ;
 }
 
 .tab-btn:active {
@@ -41,7 +44,9 @@
   display:none;
   position: fixed;
   left: 0;
-  top: 90%  ;
+  top: 90%;
+  border: 2px dotted rgb(202 186 108);
+  background: white;
 }
 
 .memoir-content {
@@ -49,8 +54,8 @@
 }
 
 .memoir-content p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 21px;
+  /*font-family: 'Open Sans', sans-serif;*/
+  /*font-size: 21px;*/
 }
 
 .mem-row {

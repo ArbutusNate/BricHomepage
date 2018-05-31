@@ -17,13 +17,10 @@ p {
   background: white !important;
   color: rgb(47 0 0) !important;
   font-family: 'Open Sans', sans-serif !important;
-  /*font-family: 'Swanky and Moo Moo', cursive !important;*/
   font-weight: 600;
-  /*font-size: 50px;*/
 }
 
 #dot {
-  /*font-weight: 100;*/
   font-size: 33px;
 }
 
@@ -66,14 +63,10 @@ p {
   color: rgb(47 0 0);
   height: 50px;
   border-bottom: 2px rgb(211 201 201) dotted;
-  /*font-family: 'Open Sans', sans-serif;*/
-
-
 }
 
 .nav a {
   font-family: 'Open Sans', sans-serif;
-  /*font-family: 'Handlee', cursive;*/
 
   color: rgb(100 131 129);
   height: 50px;
@@ -131,7 +124,6 @@ a.nav-link-active {
   color: rgb(47 0 0);
   padding: .5rem 1rem;
   line-height: 40px;
-  /*background: #2098d1;*/
 }
 
 a.nav-link-active {
@@ -160,7 +152,6 @@ a.nav-link-active {
 }
 
 .background {
-  /*background-color: gainsboro;*/
   padding: 20px 150px;
   min-height: 84vh;
 }
@@ -194,8 +185,6 @@ a.nav-link-active {
 }
 
 .img-frame{
-  /*margin: auto;*/
-  /*margin-left: 63px;*/
   height: 275px;
   border: black solid 1px;
 }
@@ -207,18 +196,9 @@ a.nav-link-active {
 }
 
 .side-box {
-  /*border: black solid 1px;*/
   background: white;
   padding: 10px;
 }
-
-/*li {
-  border-left: 3px solid rgb(202 186 108);
-}
-
-li:last-child {
-  border-right: 3px solid rgb(202 186 108);
-}*/
 
 .final {
   padding-bottom: 0px;
@@ -234,15 +214,12 @@ li:last-child {
 .ss-box {
   background: white;
   padding: 15px;
-  /*margin: 15px 15px;*/
-  /*border: 2px solid rgb(2 2 2);*/
   border-radius: 3px;
 }
 
 .ss-box img {
   height: 100px;
   float: left;
-  /*margin-right: 20px;*/
   margin: 10px;
   border: 1px solid black;
 }

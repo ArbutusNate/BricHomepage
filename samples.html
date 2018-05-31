@@ -59,12 +59,12 @@
           <button class="tab-btn col-sm-2"  data-btn="visitor">The Visitor</button>
         </div>
       </div>
-    <!-- Tabs -->
+    <!-- /Tabs -->
 
     <!-- Bloody Pumps -->
       <div class="container memoir-container">
         <div class="memoir-content hidden" id="bp">
-          <h3>The Bloody Pumps</h3>
+          <h3 class="text-center">The Bloody Pumps</h3>
           <p>The pumping was the worst, he said to himself. Of all the thousand and one tasks a sailor was called upon to do, it was pumping they hated most. Most of what they did was strenuous, all of it was tedious, and much of it was dangerous. They complained about it all, but the pumps were different. They broke men.</p>
 
           <p>He put his shoulder under the steel bar and heaved it up until he could brace his arms under it and straighten up. The top of the upstroke was just at his fingertips when he stretched up, so that for a few seconds he dangled there, unable to brace himself against the heaving deck. Then his weight would gradually draw the bar down. When it passed his chest he threw his weight over the bar and forced it down, until his knuckles rasped against the deck. Then he&rsquo;d heave his back straight and use his legs to raise it again. Each stroke was an exhausting effort, and there was no way to vary it in the slightest. Each required the same awkward series of heaves. And of course it never ended.</p>
@@ -113,7 +113,7 @@
     <!-- Heart to Heart -->
       <div class="container memoir-container">
         <div class="memoir-content hidden" id="h2h">
-          <h3>Heart to Heart</h3>
+          <h3 class="text-center">Heart to Heart</h3>
           <p>I opened the door and you walked in, a changed person.</p>
 
           <p>&quot;What is it? What&rsquo;s the matter?&quot;</p>
@@ -206,7 +206,7 @@
     <!-- Letter -->
       <div class="container memoir-container">
         <div class="memoir-content hidden" id="lpb">
-          <h3>Letter Found on a Park Bench</h3>
+          <h3 class="text-center">Letter Found on a Park Bench</h3>
           <p>&quot;Dear me, I'm afraid I have some peculiar news for you.&quot;</p>
 
           <p>That's the way the letter started. I sat there staring at it in confusion. I'd just been walking through a park and decided to rest for a while. When I sat down on a bench, there was an envelope there beside me. No stamp, no address, no marks of any kind.</p>
@@ -257,7 +257,7 @@
     <!-- House -->
       <div class="container memoir-container">
         <div class="memoir-content hidden" id="house">
-          <h3>The House</h3>
+          <h3 class="text-center">The House</h3>
 
           <p>It was one of those steamy, muggy summer days I remembered from childhood. I went up on the porch, feeling like a giant standing there on the little concrete stoop. I pressed the doorbell and waited, while Lucy and Jeremy waited below on the walk. A shadow moved through the glass blocks beside the door, then the door opened. A man in his early sixties looked us over through the screen door, no doubt expecting me to hand him a tract. A newspaper dangled from his hand. He was in his stocking feet.</p>
 
@@ -507,7 +507,7 @@
     <!-- Swing -->
       <div class="container memoir-container">
         <div class="memoir-content hidden" id="swing">
-          <h3>The Swing</h3>
+          <h3 class="text-center">The Swing</h3>
           <p> Mabel sat motionless on the porch in the late afternoon sun, an afghan tucked in around her legs and the front wheels of her chair. In her lap one thin blue-veined hand clutched the other as if it were a bird she had caught. Her pale face was almost hidden by lank curls the color of old ivory. Her eyes were sunk deep into her angular face and were that peculiar watery blue one sometimes sees in blind people. But her eyes were still good and they darted about restlessly, seeing everything that happened on the wide lawn that stretched out around the old farmhouse like a green velvet skirt.</p>
 
           <p>She followed a robin searching for worms in the grass - it pecked, listened, then took a few short stiff-legged hops before trying again. Further down the yard by the huge old oak tree, occasional sprays of red dirt arced above a gopher hole. A flicker of white in the boxwood hedge caught her eye. Was it that big magpie that had been making such a racket in the blackberries earlier? Then a small child stepped out of the hedge and stood brushing dead leaves from her hair.</p>
@@ -608,7 +608,7 @@
     <!-- Visitor -->
       <div class="container memoir-container">
         <div class="memoir-content hidden" id="visitor">
-          <h3>The Visitor  </h3>
+          <h3 class="text-center">The Visitor</h3>
 
           <p>Jim drove up the long twisting road to the Marin headlands and pulled over at one of the scenic overlooks. Dust flew up around the car when he left the pavement, so he quickly shut the car off and let it settle to the ground. He sat for a few minutes, taking in the sweep of the Golden Gate below him, with its bridge framing the famous skyline of San Francisco.</p>
 
@@ -759,27 +759,17 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script>
       $(window).ready(function() {
-        // $('.memoir-content').hide();
         $('.hidden').hide();
-        // $('#candy-man').hide();
-        // $('#eight-east').hide();
-        // $('#big-one').hide();
         $('.btt').hide();
-        // $('.memoir-container').show();
       })
       $('.tab-btn').on('click', function(event){
         $('.hidden').hide();
-        // $('#candy-man').hide();
-        // $('#eight-east').hide();
-        // $('#big-one').hide();
         let chosen = $(this).attr("data-btn");
-        // $(this).attr('active', true)
         $('#' + chosen).show();
         window.scrollTo($(this));
         $('.btt').show();
       })
       $('.btt').on('click', function() {
-        // $('.btt').hide();
         window.scrollTo(0,0);
       });
     </script>

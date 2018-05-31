@@ -122,7 +122,6 @@ a.nav-link-active {
 .img-frame{
   height: 275px;
   margin-top: 16px;
-  /*border: black solid 1px;*/
 }
 
 #blurb {
@@ -134,11 +133,6 @@ a.nav-link-active {
 .final {
   padding-bottom: 0px;
 }
-
-/*.see-more {
-  position: relative;
-  bottom: 5px;
-}*/
 
 /*Short Stories*/
 

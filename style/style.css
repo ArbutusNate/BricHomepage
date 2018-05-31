@@ -9,11 +9,16 @@ p {
 
 .btn {
   border-radius: 0px !important;
-  border: 2px rgb(211 201 201) dotted !important;
+  border: 2px rgb(47 0 0) dotted !important;
   background: white !important;
   color: rgb(47 0 0) !important;
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 600;
+}
+
+.btn:hover, .btn:active{
+  color: rgb(153 247 171) !important;
+
 }
 
 #dot {
@@ -108,9 +113,16 @@ a.nav-link-active {
   height: 100% !important;
 }
 
+.hero-row {
+  margin: 20px 75px !important;
+  border: 2px rgb(211 201 201) dotted;
+  padding: 15px;
+}
+
 .img-frame{
   height: 275px;
-  border: black solid 1px;
+  margin-top: 16px;
+  /*border: black solid 1px;*/
 }
 
 #blurb {
@@ -123,10 +135,10 @@ a.nav-link-active {
   padding-bottom: 0px;
 }
 
-.see-more {
+/*.see-more {
   position: relative;
   bottom: 5px;
-}
+}*/
 
 /*Short Stories*/
 

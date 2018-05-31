@@ -17,6 +17,14 @@ p {
   background: white !important;
   color: rgb(47 0 0) !important;
   font-family: 'Open Sans', sans-serif !important;
+  /*font-family: 'Swanky and Moo Moo', cursive !important;*/
+  font-weight: 600;
+  /*font-size: 50px;*/
+}
+
+#dot {
+  /*font-weight: 100;*/
+  font-size: 33px;
 }
 
 /*Header CSS*/
@@ -49,7 +57,8 @@ p {
 #logo {
   color: rgb(47 0 0);
   font-family: 'Swanky and Moo Moo', cursive;
-  font-size: 3rem;
+  font-size: 47px;
+  font-weight: 600;
 }
 
 #header-nav {
@@ -57,13 +66,14 @@ p {
   color: rgb(47 0 0);
   height: 50px;
   border-bottom: 2px rgb(211 201 201) dotted;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sans', sans-serif;*/
+
 
 }
 
 .nav a {
   font-family: 'Open Sans', sans-serif;
-  /*font-family: 'Swanky and Moo Moo', cursive;*/
+  /*font-family: 'Handlee', cursive;*/
 
   color: rgb(100 131 129);
   height: 50px;
@@ -232,7 +242,8 @@ li:last-child {
 .ss-box img {
   height: 100px;
   float: left;
-  margin-right: 20px;
+  /*margin-right: 20px;*/
+  margin: 10px;
   border: 1px solid black;
 }
 

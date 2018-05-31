@@ -151,7 +151,7 @@ a.nav-link-active {
 
 .background {
   /*background-color: gainsboro;*/
-  padding: 20px 50px;
+  padding: 20px 150px;
   min-height: 84vh;
 }
 
@@ -192,6 +192,8 @@ a.nav-link-active {
 
 #blurb {
   font-size: 16px;
+  border: 2px rgb(211 201 201) dotted;
+  padding: 20px;
 }
 
 .side-box {
@@ -210,10 +212,6 @@ li:last-child {
 
 .final {
   padding-bottom: 0px;
-}
-
-.down-arrow {
-  height: 40px;
 }
 
 .see-more {

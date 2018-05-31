@@ -3,17 +3,25 @@ body {
   overflow-y: scroll;
 }
 
-h1, h2, h3, h4, h5 {
+/*h1, h2, h3, h4, h5 {
   font-family: 'Roboto', sans-serif;
-}
+}*/
 
 p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.btn {
+  border-radius: 0px !important;
+  border: 2px rgb(211 201 201) dotted !important;
+  background: white !important;
+  color: rgb(47 0 0) !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
 /*Header CSS*/
 
-#brand {
+/*#brand {
   color: rgb(0 0 0);
   width: 100px;
   position: absolute;
@@ -25,35 +33,38 @@ p {
   padding-top: 5px;
   padding-left: 2px;
   font-family: 'Roboto', sans-serif;
-}
+}*/
 
-
-
-.burgundy {
-  /*background-color: rgb(47 0 0) !important;*/
-}
-
-#brand a {
+/*#brand a {
   color: inherit;
   text-decoration: none;
-}
+}*/
 
 #title-bar {
   height: 50px;
-  padding-top: 10px;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+}
+
+#logo {
   color: rgb(47 0 0);
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 3rem;
 }
 
 #header-nav {
+  padding-bottom: 50px;
   color: rgb(47 0 0);
   height: 50px;
-  border-bottom: 1px rgb(211 201 201) solid;
+  border-bottom: 2px rgb(211 201 201) dotted;
   font-family: 'Open Sans', sans-serif;
 
 }
 
 .nav a {
+  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Swanky and Moo Moo', cursive;*/
+
   color: rgb(100 131 129);
   height: 50px;
 }
@@ -139,7 +150,7 @@ a.nav-link-active {
 }
 
 .background {
-  background-color: gainsboro;
+  /*background-color: gainsboro;*/
   padding: 20px 50px;
   min-height: 84vh;
 }
@@ -173,8 +184,8 @@ a.nav-link-active {
 }
 
 .img-frame{
-  margin: auto;
-  margin-left: 63px;
+  /*margin: auto;*/
+  /*margin-left: 63px;*/
   height: 275px;
   border: black solid 1px;
 }

@@ -16,7 +16,7 @@ p {
   font-weight: 600;
 }
 
-.btn:hover, .btn:active{
+.btn:hover, .btn:active, .btn:focus{
   color: rgb(153 247 171) !important;
 
 }

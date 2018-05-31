@@ -3,10 +3,6 @@ body {
   overflow-y: scroll;
 }
 
-/*h1, h2, h3, h4, h5 {
-  font-family: 'Roboto', sans-serif;
-}*/
-
 p {
   font-family: 'Open Sans', sans-serif;
 }
@@ -77,6 +73,88 @@ a.nav-link-active:hover {
   text-decoration: none;
 }
 
+
+
+a.nav-link-active {
+  color: rgb(47 0 0);
+  padding: .5rem 1rem;
+  line-height: 40px;
+}
+
+a.nav-link-active {
+  text-decoration: none;
+}
+
+.main-content-box {
+  display: none;
+}
+
+.background {
+  padding: 20px 150px;
+  min-height: 84vh;
+}
+
+@media (max-width: 426px) {
+  .background {
+    padding: 0px;
+  }
+}
+
+.no-style {
+  color: black;
+}
+
+#hero-img {
+  height: 100% !important;
+}
+
+.img-frame{
+  height: 275px;
+  border: black solid 1px;
+}
+
+#blurb {
+  font-size: 16px;
+  border: 2px rgb(211 201 201) dotted;
+  padding: 20px;
+}
+
+.final {
+  padding-bottom: 0px;
+}
+
+.see-more {
+  position: relative;
+  bottom: 5px;
+}
+
+/*Short Stories*/
+
+.ss-box {
+  background: white;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.ss-box img {
+  height: 100px;
+  float: left;
+  margin: 10px;
+  border: 1px solid black;
+}
+
+.ss-box p {
+  font-size: 15px;
+}
+
+#fucked-p {
+  margin-bottom: -7px;
+}
+
+.final {
+  margin-bottom: 20px;
+}
+
 /*HOVER EFFECT*/
 .hvr-sweep-to-top {
   display: inline-block;
@@ -119,125 +197,3 @@ a.nav-link-active:hover {
 }
 
 /*HOVER EFFECT*/
-
-a.nav-link-active {
-  color: rgb(47 0 0);
-  padding: .5rem 1rem;
-  line-height: 40px;
-}
-
-a.nav-link-active {
-  text-decoration: none;
-}
-
-.main-content-box {
-  display: none;
-  background: rgb(47 0 0);
-  padding: 20px;
-  margin: 5px 0px;
-}
-
-.main-content-title {
-  padding: 20px;
-  margin: -20px 0px 0px -20px;
-  color: rgb(202 186 108);
-}
-
-.title-box {
-  background-color: rgb(47 0 0);
-}
-
-.tent-row {
-  width: 105%;
-}
-
-.background {
-  padding: 20px 150px;
-  min-height: 84vh;
-}
-
-@media (max-width: 426px) {
-  .background {
-    padding: 0px;
-  }
-}
-
-.clickable-card {
-  border: rgb(171 161 99) solid .5px;
-  color: black;
-  border-radius: 15px;
-  padding-bottom: 12px;
-  margin: 0px 6px;
-  background-color: rgb(202 186 108);
-  box-shadow: rgb(119 101 59) -2px 3px;
-}
-
-.no-style {
-  color: black;
-}
-
-.clickable-card:hover {
-  text-decoration: none;
-}
-
-#hero-img {
-  height: 100% !important;
-}
-
-.img-frame{
-  height: 275px;
-  border: black solid 1px;
-}
-
-#blurb {
-  font-size: 16px;
-  border: 2px rgb(211 201 201) dotted;
-  padding: 20px;
-}
-
-.side-box {
-  background: white;
-  padding: 10px;
-}
-
-.final {
-  padding-bottom: 0px;
-}
-
-.see-more {
-  position: relative;
-  bottom: 5px;
-}
-
-/*Short Stories*/
-
-.ss-box {
-  background: white;
-  padding: 15px;
-  border-radius: 3px;
-}
-
-.ss-box img {
-  height: 100px;
-  float: left;
-  margin: 10px;
-  border: 1px solid black;
-}
-
-.ss-box a {
-  /*float: right*/
-}
-
-.ss-box p {
-  font-size: 15px;
-}
-
-#fucked-p {
-  margin-bottom: -7px;
-}
-
-.final {
-  margin-bottom: 20px;
-}
-
-

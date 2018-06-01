@@ -68,7 +68,6 @@ p {
 
 .nav a {
   font-family: 'Open Sans', sans-serif;
-
   color: rgb(100 131 129);
   height: 50px;
 }
@@ -109,8 +108,16 @@ a.nav-link-active {
   color: black;
 }
 
+.illuminated {
+  line-height: 1px;
+  font-family: 'Swanky and Moo Moo', cursive;
+  font-size: 60px;
+  /*float: left;*/
+}
+
 #hero-img {
   height: 100% !important;
+  border: 1px black solid !important;
 }
 
 .hero-row {

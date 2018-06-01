@@ -5,8 +5,8 @@
 }
 
 #tabs {
-  float: none;
-  font-family: 'Open Sans', sans-serif;
+  /*float: none;*/
+  /*font-family: 'Open Sans', sans-serif;*/
 }
 
 img.down-arrow {
@@ -17,13 +17,12 @@ img.down-arrow {
   margin: 0px 0px 20px 0px;
   background-color: white;
   height: 50px;
-  border:none;
-  border-left: 2px dotted rgb(202 186 108);
-  /*margin: auto;*/
+  border: none;
+  /*border-left: 2px dotted rgb(202 186 108);*/
 }
 
 .tab-btn:last-child {
-  border-right: 2px dotted rgb(202 186 108) ;
+  /*border-right: 2px dotted rgb(202 186 108) ;*/
 }
 
 .tab-btn:active {
@@ -37,7 +36,7 @@ img.down-arrow {
 
 .memoir-container {
   margin-top: 20px;
-  height: calc(100% - 100px);
+  /*height: calc(100% - 100px);*/
 }
 
 .btt {

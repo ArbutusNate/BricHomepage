@@ -7,6 +7,17 @@ p {
   font-family: 'Open Sans', sans-serif;
 }
 
+.background {
+  padding: 20px 150px;
+  min-height: 84vh;
+}
+
+@media (max-width: 426px) {
+  .background {
+    padding: 0px;
+  }
+}
+
 .btn {
   border-radius: 0px !important;
   border: 2px rgb(47 0 0) dotted !important;
@@ -18,34 +29,9 @@ p {
 
 .btn:hover, .btn:active, .btn:focus{
   color: rgb(153 247 171) !important;
-
 }
 
-#dot {
-  font-size: 33px;
-}
-
-/*Header CSS*/
-
-/*#brand {
-  color: rgb(0 0 0);
-  width: 100px;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  height: 100px;
-  background: rgb(153 247 171);
-  font-size: 72px;
-  padding-top: 5px;
-  padding-left: 2px;
-  font-family: 'Roboto', sans-serif;
-}*/
-
-/*#brand a {
-  color: inherit;
-  text-decoration: none;
-}*/
-
+/*Header and Nav CSS*/
 #title-bar {
   height: 50px;
   padding: 10px 0px;
@@ -77,8 +63,6 @@ a.nav-link-active:hover {
   text-decoration: none;
 }
 
-
-
 a.nav-link-active {
   color: rgb(47 0 0);
   padding: .5rem 1rem;
@@ -89,20 +73,16 @@ a.nav-link-active {
   text-decoration: none;
 }
 
+#dot {
+  font-size: 33px;
+}
+
+
 .main-content-box {
   display: none;
 }
 
-.background {
-  padding: 20px 150px;
-  min-height: 84vh;
-}
 
-@media (max-width: 426px) {
-  .background {
-    padding: 0px;
-  }
-}
 
 .no-style {
   color: black;

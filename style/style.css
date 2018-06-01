@@ -56,12 +56,17 @@ p {
   border-bottom: 2px rgb(211 201 201) dotted;
 }
 
-.sticky {
+#header-nav.sticky {
   position: fixed;
   width: 100%;
   z-index: 5;
   background: white;
   top: 0;
+}
+
+#blurb.sticky {
+  position: fixed;
+  top: 70px;
 }
 
 .nav a {

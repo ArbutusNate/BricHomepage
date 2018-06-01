@@ -18,28 +18,21 @@ $(window).ready(function() {
 
       $window.scroll(function (e) {
           if ($window.scrollTop() > pos) {
-              // $this.css({
-              //     position: 'initial',
-              //     top: pos
-              // });
+            //Add Sticky to #header-nav
               $this.addClass('sticky');
-              // $('.background').css(
-              //     "padding-top", "100px"
-              //   )
+            //Add Sticky to #blurb
+              let blurbWidth = $('#blurb').width()
+              console.log(blurbWidth);
+              $('#blurb').addClass('sticky').width(blurbWidth);
+            //Adjust padding on background
+              $('.background').css(
+                  "padding-top", "70px"
+                )
           } else {
               $this.removeClass('sticky');
-              // $('.background').css(
-              //     "padding-top", "initial"
-              //   );
-
-              // $this.css({
-              //     position: 'fixed',
-              //     top: 0
-              //     // z-index: 10
-              // });
-              // $('.background').css({
-              //     padding: 50
-              // })
+              $('.background').css({
+                  "padding": "20px 150px"
+              })
           }
       });
   };
@@ -62,6 +55,7 @@ $(window).ready(function() {
 
 //Listeners
   $('#header-nav').followFrom(55);
+  $('#blurb').followFrom(55);
 
 //On Clicks
 //Tab Buttons

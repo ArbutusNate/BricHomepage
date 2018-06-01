@@ -19,7 +19,7 @@ $(window).ready(function() {
       $window.scroll(function (e) {
           if ($window.scrollTop() > pos) {
             //Add Sticky to #header-nav
-              $this.addClass('sticky');
+              $('#header-nav').addClass('sticky');
             //Add Sticky to #blurb
               let blurbWidth = $('#blurb').width()
               console.log(blurbWidth);
@@ -29,7 +29,10 @@ $(window).ready(function() {
                   "padding-top", "70px"
                 )
           } else {
-              $this.removeClass('sticky');
+            //Remove Stickies
+              $('#header-nav').removeClass('sticky');
+              $('#blurb').removeClass('sticky');
+            //Reset Padding
               $('.background').css({
                   "padding": "20px 150px"
               })
@@ -54,8 +57,8 @@ $(window).ready(function() {
   }
 
 //Listeners
-  $('#header-nav').followFrom(55);
-  $('#blurb').followFrom(55);
+  $('#header-nav').followFrom(58);
+  // $('#blurb').followFrom(55);
 
 //On Clicks
 //Tab Buttons

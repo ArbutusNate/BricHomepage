@@ -93,6 +93,10 @@ a.nav-link-active {
   font-size: 33px;
 }
 
+.dropdown {
+  display: none;
+}
+
 
 .main-content-box {
   display: none;
@@ -213,23 +217,68 @@ a.nav-link-active {
 /*Media Queries*/
 @media (max-width: 426px) {
   .background {
-    padding: 0px;
+    padding: 66px 0px;
   }
 
   .nav {
     display: none;
   }
 
-  #title-bar {
-    height: 20px;
+/*  #title-bar {
+    position: fixed;
+    height: 40px;
+    padding: 0px 0px 0px 10px;
+    z-index: 999999;
+  }*/
+
+  #header {
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    z-index: 99999999;
+    background: white;
     padding: 0px;
   }
 
   #logo {
-    font-size: 40px;
+    font-size: 38px;
+    float: left;
+    z-index: 5;
+    /*background-color: white;*/
   }
 
   #header-nav {
+    /*position: fixed;*/
     height: 0px;
+    /*background: white;*/
+    /*right: 5px;*/
+    /*top: 0px;*/
+  }
+
+  #title-bar {
+    width: 100%;
+  }
+
+  .dropdown {
+    display: inline-block;
+    /*float: right;*/
+    /*float: top;*/
+    position: fixed;
+    z-index: 5;
+    top: 5px;
+    margin: 0px;
+    right: 3px;
+  }
+
+  .dropdown-menu {
+    /*position: fixed;*/
+  }
+
+  .nav-link-active, .nav-link {
+    width: 100%;
+  }
+
+  .hero-row {
+    margin: 0px;
   }
 }

@@ -224,13 +224,6 @@ a.nav-link-active {
     display: none;
   }
 
-/*  #title-bar {
-    position: fixed;
-    height: 40px;
-    padding: 0px 0px 0px 10px;
-    z-index: 999999;
-  }*/
-
   #header {
     position: fixed;
     height: 60px;
@@ -238,6 +231,10 @@ a.nav-link-active {
     z-index: 99999999;
     background: white;
     padding: 0px;
+  }
+
+  .row {
+    margin: 0px;
   }
 
   #logo {
@@ -276,9 +273,27 @@ a.nav-link-active {
 
   .nav-link-active, .nav-link {
     width: 100%;
+    font-size: 14px;
   }
 
   .hero-row {
     margin: 0px;
+  }
+
+  .biopic {
+    /*width: 100%;*/
+  }
+
+  .ss-box {
+    border-bottom: 2px rgb(211 201 201) dotted;
+  }
+
+  .click-below {
+    font-size: 16px;
+    border-bottom: 2px rgb(211 201 201) dotted;
+  }
+
+  .tab-btn {
+    border: none;
   }
 }

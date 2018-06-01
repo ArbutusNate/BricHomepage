@@ -52,8 +52,14 @@ if ($(window).width() > 426){
     $('.hidden').hide();
     $(this).addClass('tab-btn-active');
     let chosen = $(this).attr('data-btn');
-    let location = $(this).offset();
     $('#' + chosen).show();
+    if($(window).width() > 426){
+      var location = $(this).offset();
+    } else {
+      var location = $('.memoir-container').offset();
+      console.log(location);
+      location.top = location.top - 63;
+    }
     window.scrollTo(location);
     $('.btt').show();
   }

@@ -19,20 +19,23 @@ p {
 }
 
 .btn {
-  border-radius: 0px !important;
-  border: 2px rgb(47 0 0) dotted !important;
-  background: white !important;
-  color: rgb(47 0 0) !important;
-  font-family: 'Open Sans', sans-serif !important;
+  border-radius: 0px;
+  border: 2px rgb(47 0 0) dotted;
+  background-color: white;
+  color: rgb(47 0 0);
+  font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 }
 
 .btn:hover, .btn:active, .btn:focus{
-  color: rgb(153 247 171) !important;
+  color: rgb(153 247 171);
+  border-color: rgb(47 0 0);
+  background-color: white;
 }
 
 /*Header and Nav CSS*/
 #title-bar {
+  position: relative;
   height: 50px;
   padding: 10px 0px;
   margin-bottom: 10px;
@@ -46,10 +49,19 @@ p {
 }
 
 #header-nav {
-  padding-bottom: 50px;
+  /*padding-bottom: 50px;*/
+  /*position: initial;*/
   color: rgb(47 0 0);
   height: 50px;
   border-bottom: 2px rgb(211 201 201) dotted;
+}
+
+.sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  background: white;
+  top: 0;
 }
 
 .nav a {
@@ -64,13 +76,10 @@ a.nav-link-active:hover {
 }
 
 a.nav-link-active {
+  text-decoration: none;
   color: rgb(47 0 0);
   padding: .5rem 1rem;
   line-height: 40px;
-}
-
-a.nav-link-active {
-  text-decoration: none;
 }
 
 #dot {
@@ -96,12 +105,12 @@ a.nav-link-active {
 }
 
 #hero-img {
-  height: 100% !important;
-  border: 1px black solid !important;
+  height: 100%;
+  border: 1px black solid;
 }
 
 .hero-row {
-  margin: 20px 75px !important;
+  margin: 20px 75px;
   border: 2px rgb(211 201 201) dotted;
   padding: 15px;
 }
@@ -130,9 +139,9 @@ a.nav-link-active {
 }
 
 .ss-box img {
-  height: 100px;
+  height: 126px;
   float: left;
-  margin: 10px;
+  margin: 10px 10px 0px;
   border: 1px solid black;
 }
 
@@ -190,3 +199,5 @@ a.nav-link-active {
 }
 
 /*HOVER EFFECT*/
+
+

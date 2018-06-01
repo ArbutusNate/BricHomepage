@@ -26,16 +26,27 @@ $(window).ready(function() {
               $('#blurb').addClass('sticky').width(blurbWidth);
             //Adjust padding on background
               $('.background').css(
-                  "padding-top", "70px"
-                )
+                "padding-top", "68px"
+              )
+            //Move Logo
+              $('#logo').addClass('sticky');
+              // $('#title-bar').css({
+              //   "float": "left",
+              //   "z-index": "6"
+              // })
           } else {
             //Remove Stickies
               $('#header-nav').removeClass('sticky');
               $('#blurb').removeClass('sticky');
             //Reset Padding
               $('.background').css({
-                  "padding": "20px 150px"
+                "padding": "20px 150px"
               })
+            //Reset Logo
+              $('#logo').removeClass('sticky');
+              // $('#title-bar').css(
+              //   "float", "none"
+              // )
           }
       });
   };

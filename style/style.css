@@ -69,6 +69,14 @@ p {
   top: 70px;
 }
 
+#logo.sticky {
+  position: fixed;
+  top: 0px;
+  left: 10px;
+  font-size: 26px;
+  z-index: 6;
+}
+
 .nav a {
   font-family: 'Open Sans', sans-serif;
   color: rgb(100 131 129);
@@ -96,7 +104,10 @@ a.nav-link-active {
   display: none;
 }
 
-
+.biopic {
+  width: 80%;
+  margin: 10px;
+}
 
 .no-style {
   color: black;

@@ -238,9 +238,10 @@ a.nav-link-active {
   }
 
   #logo {
-    font-size: 38px;
+    font-size: 34px;
     float: left;
     z-index: 5;
+    margin-left: 5px;
     /*background-color: white;*/
   }
 
@@ -260,9 +261,10 @@ a.nav-link-active {
     display: inline-block;
     /*float: right;*/
     /*float: top;*/
+    /*width: 15%;*/
     position: fixed;
     z-index: 5;
-    top: 5px;
+    top: 8px;
     margin: 0px;
     right: 3px;
   }

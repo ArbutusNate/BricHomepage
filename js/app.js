@@ -64,12 +64,14 @@ if ($(window).width() > 426){
       console.log(location);
       location.top = location.top - 63;
     }
+    $('#blurb').hide();
     window.scrollTo(location);
     $('.btt').show();
   }
 //Scroll to Top Function
   const scrollToTop = function(){
     window.scrollTo(0,0);
+    $('#blurb').show();
   }
 //Fancy Text
   const showMore = function(event){

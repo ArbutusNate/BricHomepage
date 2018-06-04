@@ -299,3 +299,21 @@ a.nav-link-active {
     border: none;
   }
 }
+
+/*[data-toggle="collapse"].collapsed .if-not-collapsed {
+  display: none;
+}
+[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
+  display: none;
+}*/
+
+/*button.btn.collapsed:before
+{
+    content:'See Less' ;
+    display:block;
+}
+button.btn:before
+{
+    content:'See More Information' ;
+    display:block;
+}*/

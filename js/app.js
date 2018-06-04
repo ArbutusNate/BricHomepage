@@ -1,7 +1,11 @@
+const seeMore = " See More Information ";
+const seeLess = " See Less ";
+
+
 $(window).ready(function() {
   $('.hidden').hide();
   $('.btt').hide();
-  $(window).resize();
+  // $(window).resize();
 })
 
 //Large Size fancy JS
@@ -16,7 +20,7 @@ if ($(window).width() > 426){
               $('#header-nav').addClass('sticky');
             //Add Sticky to #blurb
               let blurbWidth = $('#blurb').width()
-              // console.log(blurbWidth);
+              console.log(blurbWidth);
               $('#blurb').addClass('sticky').width(blurbWidth);
             //Adjust padding on background
               $('.background').css(
@@ -67,9 +71,21 @@ if ($(window).width() > 426){
   const scrollToTop = function(){
     window.scrollTo(0,0);
   }
+//Fancy Text
+  const showMore = function(event){
+    console.log($(this).text());
+    let currentText = $(this).text();
+    if (currentText == seeMore){
+      return $(this).text(seeLess);
+    };
+    if (currentText == seeLess){
+      return $(this).text(seeMore);
+    };
+  }
 
 //On Clicks
 //Tab Buttons
   $('.tab-btn').on('click', sampleTabs);
 //Back To Top Button
   $('.btt').on('click', scrollToTop);
+  $('.smi-btn').on('click', showMore);

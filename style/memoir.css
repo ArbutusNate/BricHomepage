@@ -17,11 +17,11 @@ img.down-arrow {
   background-color: white;
   height: 50px;
   border: none;
-  border-left: 2px dotted rgb(47 0 0);
+  border-left: 2px dotted #2f0000;
 }
 
 .tab-btn:last-child {
-  border-right: 2px dotted rgb(47 0 0) ;
+  border-right: 2px dotted #2f0000 ;
 }
 
 .tab-btn:hover {
@@ -29,7 +29,7 @@ img.down-arrow {
 }
 
 .tab-btn-active {
-  background-color: rgb(47 0 0);
+  background-color: #2f0000;
   color: rgb(153 247 171)
 }
 
@@ -42,7 +42,7 @@ img.down-arrow {
   position: fixed;
   left: 0;
   top: 90%;
-  border: 2px dotted rgb(202 186 108);
+  border: 2px dotted #caba6c;
   background: white;
 }
 

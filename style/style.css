@@ -316,20 +316,12 @@ a.nav-link-active {
   }
 }
 
-/*[data-toggle="collapse"].collapsed .if-not-collapsed {
-  display: none;
-}
-[data-toggle="collapse"]:not(.collapsed) .if-collapsed {
-  display: none;
-}*/
+/*Essay Stuff*/
 
-/*button.btn.collapsed:before
-{
-    content:'See Less' ;
-    display:block;
+#essay h5 {
+  /*font-family: 'Roboto', ;*/
 }
-button.btn:before
-{
-    content:'See More Information' ;
-    display:block;
-}*/
+
+#essay p {
+  font-family: 'Open Sans', sans-serif;
+}

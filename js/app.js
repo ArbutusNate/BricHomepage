@@ -9,7 +9,7 @@ $(window).ready(function() {
 })
 
 //Large Size fancy JS
-  if ($(window).width() > 426){
+  if ($(window).width() >= 800){
     $.fn.followFrom = function (pos) {
         var $this = this,
             $window = $(window);

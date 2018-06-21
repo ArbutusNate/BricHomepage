@@ -230,8 +230,8 @@ a.nav-link-active {
 
 /*HOVER EFFECT*/
 
-/*Media Queries*/
-@media (max-width: 426px) {
+/*Media Queries for Mobile Portrait*/
+@media screen and (max-width: 800px) /*and (orientation: portrait)*/ {
   .background {
     padding: 66px 0px;
   }
@@ -258,15 +258,10 @@ a.nav-link-active {
     float: left;
     z-index: 5;
     margin-left: 5px;
-    /*background-color: white;*/
   }
 
   #header-nav {
-    /*position: fixed;*/
     height: 0px;
-    /*background: white;*/
-    /*right: 5px;*/
-    /*top: 0px;*/
   }
 
   #title-bar {
@@ -275,18 +270,11 @@ a.nav-link-active {
 
   .dropdown {
     display: inline-block;
-    /*float: right;*/
-    /*float: top;*/
-    /*width: 15%;*/
     position: fixed;
     z-index: 5;
     top: 8px;
     margin: 0px;
     right: 3px;
-  }
-
-  .dropdown-menu {
-    /*position: fixed;*/
   }
 
   .nav-link-active, .nav-link {
@@ -296,10 +284,6 @@ a.nav-link-active {
 
   .hero-row {
     margin: 0px;
-  }
-
-  .biopic {
-    /*width: 100%;*/
   }
 
   .ss-box {
@@ -315,6 +299,15 @@ a.nav-link-active {
     border: none;
   }
 }
+
+@media screen and (max-width: 800px) and (orientation: landscape) {
+  .background {
+    
+  }
+}
+
+
+
 
 /*Essay Stuff*/
 
